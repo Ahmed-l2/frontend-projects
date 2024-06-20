@@ -13,7 +13,7 @@ main {
     background-color: hsl(0, 0%, 100%);
     border-radius: 25px;
     width: 100%;
-    max-width: 650px; /* Set a max-width for larger screens */
+    max-width: 650px;
     padding: 40px;
     font-family: 'Outfit', sans-serif;
     margin-bottom: 124px;
@@ -118,7 +118,7 @@ main {
 .value {
     flex: 1;
     font-weight: 600;
-    margin-left: 228px; /* Adjust this or make it relative */
+    margin-left: 228px;
 }
 
 .libr {
@@ -126,7 +126,7 @@ main {
     padding-bottom: 12px;
 }
 
-/* Media Queries for Responsive Design */
+/*Media Queries for Responsive Design*/
 @media (max-width: 768px) {
     main {
         margin-top: 0px;
