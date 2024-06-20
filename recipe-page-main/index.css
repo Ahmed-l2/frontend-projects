@@ -12,7 +12,8 @@ main {
     margin-top: 124px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 25px;
-    width: 655px;
+    width: 100%;
+    max-width: 650px; /* Set a max-width for larger screens */
     padding: 40px;
     font-family: 'Outfit', sans-serif;
     margin-bottom: 124px;
@@ -20,7 +21,7 @@ main {
 
 .s1 img {
     border-radius: 10px;
-    width: 655px;
+    width: 100%;
     height: auto;
 }
 
@@ -117,10 +118,78 @@ main {
 .value {
     flex: 1;
     font-weight: 600;
-    margin-left: 228px;
+    margin-left: 228px; /* Adjust this or make it relative */
 }
 
 .libr {
     border-bottom: 1px solid hsl(30, 18%, 87%);
     padding-bottom: 12px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    main {
+        margin-top: 0px;
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+
+    .s1 img {
+        width: 100%;
+        padding: 0;
+    }
+
+    .s1 h1 {
+        font-size: 32px;
+    }
+
+    .s1 p, .bullet li {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .s2 h2 {
+        font-size: 18px;
+        padding-left: 10px;
+    }
+
+    .sub {
+        font-size: 24px;
+    }
+
+    .value {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        margin-top: 0px;
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+
+    .s1 h1 {
+        font-size: 28px;
+    }
+
+    .s1 p, .bullet li {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .s2 h2 {
+        font-size: 16px;
+        padding-left: 5px;
+    }
+
+    .sub {
+        font-size: 20px;
+    }
+
+    .value {
+        flex: initial;
+        margin-left: 50px;
+        text-align: right;
+    }
 }
