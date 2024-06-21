@@ -21,8 +21,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Solution]()
-- Live Site URL: [Link]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/recipe-page-using-htmlcss-sZ3sh_n8DZ)
+- Live Site URL: [Link](https://ahmed-l2.github.io/frontend-projects/recipe-page-main/index.html)
 
 ## My process
 
