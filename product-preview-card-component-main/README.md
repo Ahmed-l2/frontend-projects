@@ -21,7 +21,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Solution URL: [Solution]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-product-preview-card-component-using-htmlcss-OWQ5hdzumE)
 - Live Site URL: [Link](https://ahmed-l2.github.io/frontend-projects/product-preview-card-component-main/)
 
 ## My process
