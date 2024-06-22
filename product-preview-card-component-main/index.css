@@ -1,0 +1,167 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  height: auto;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.card {
+  text-align: left;
+  padding-left: 23px;
+  padding-right: 23px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 0.875em;
+  color: hsl(228, 12%, 48%);
+}
+
+.cata {
+  font-size: 0.970em;
+  margin-top: 1.2rem;
+  margin-bottom: 0.7rem;
+}
+
+.card h1 {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  color: hsl(212, 21%, 14%);
+  font-size: 2.2em;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.1em;
+}
+
+.desc {
+  line-height: 1.7em;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.3rem;
+}
+
+.price h1 {
+  color: hsl(158, 36%, 37%);
+  margin-right: 0.50em;
+}
+
+.price p {
+  text-decoration: line-through;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 500;
+  background-color: hsl(158, 36%, 37%);
+  height: 3rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.cart img {
+  padding-right: 0.7rem;
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .container {
+    max-width: 600px;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .pc-image {
+    width: 50%;
+    height: auto;
+    display: block;
+  }
+  .mobile-image {
+    display: none;
+  }
+
+  .card {
+    margin-right: 0.625rem;
+    margin-left: 0.625rem;
+    height: 100%;
+    padding-top: 1.5rem;
+  }
+
+  .card h1 {
+    padding-bottom: 0.65rem;
+  }
+
+  .cata {
+    margin-top: 0;
+    padding-bottom: 0.625rem;
+  }
+
+  .price {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+  }
+
+  .price p {
+    margin-bottom: 1.5625rem;
+  }
+
+  .cart:hover {
+    background-color: #1A4031;
+    cursor: pointer;
+  }
+}
+
+/* Mobile Image */
+.mobile-image {
+  width: 100%;
+  height: auto;
+}
+
+/* For larger screens */
+@media (max-width: 767px) {
+  .pc-image {
+    display: none;
+  }
+  .mobile-image {
+    display: block;
+  }
+}
