@@ -87,7 +87,9 @@ main {
     align-self: flex-end;
 }
 
-@media (min-width: 56.25rem) {
+@media (min-width: 900px) {
+    
+
     body {
         height: 100vh;
         margin: 0;
@@ -132,5 +134,12 @@ main {
         gap: 1.25rem;
         margin-right: 1.25rem;
         margin-left: 1.25rem;
+    }
+}
+
+@media (min-width: 1110px) {
+
+    html {
+        font-size: 20px;
     }
 }
